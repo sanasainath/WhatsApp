@@ -1,0 +1,103 @@
+/* Profile.css */
+
+.profile-container {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  overflow: auto;
+  max-height: 500px;
+  background: linear-gradient(to bottom, rgba(223, 223, 251, 0.955), transparent); /* Adjust the gradient color values as needed */
+}
+
+
+
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 50px;
+
+
+}
+
+.avatar-image {
+  width: 150px;
+  height: 150px;
+  transition: filter 0.5s;
+}
+
+.avatar-container:hover .avatar-image {
+  filter: grayscale(60%) blur(0.5px);
+}
+
+.round-image {
+  border-radius: 50%;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  color: #128c7e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.change-photo-overlay {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camera-icon {
+  color: #128c7e;
+}
+
+.text {
+color:snow
+}
+.profile-details {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-details > div {
+  display: flex;
+ 
+  margin-bottom: 10px;
+}
+
+
+.profile-details > .sd {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+ 
+}
+.sd span {
+  margin-left: 40px;
+  color: #424242;
+ 
+}
+
+.sd > :last-child {
+  margin-left: auto;
+}
+
+

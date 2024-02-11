@@ -1,0 +1,32 @@
+
+.sideView {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: yellow;
+  }
+  
+  .sideView_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    flex: 1;
+  }
+  
+  .lastSeenText {
+    margin-left: auto;
+    color: #555;
+    font-size: 14px;
+    margin-top: -15px;
+  }
+
+.back-button {
+  margin-top: 70px; 
+}
+.avatar1{
+  cursor: pointer;
+}
+  
+  
+  

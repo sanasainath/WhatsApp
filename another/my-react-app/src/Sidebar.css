@@ -1,0 +1,70 @@
+    .sidebar{
+     
+        display: flex;
+        flex-direction: column;
+        flex: 0.35;
+        max-height: 100vh;
+        overflow-y: hidden;
+        min-width: 250px;
+    }
+    .sidebar_header{
+        display: flex;
+        flex-wrap: nowrap;
+        
+        justify-content: space-between;
+        padding: 20px;
+        border-right: 1px solid lightgray;
+        
+    }
+    .sidebar_header_right{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 10vw; 
+        
+    }
+    .sidebar_header_right>.MuiSvgIcon-root{
+        font-size: 30px;
+    }
+    .search_visible{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:#f6f6f6;
+        height: 39px;
+        padding: 10px;
+
+
+    }
+.search_box{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    height: 36px;
+    border-radius: 20px;
+    padding: 0 10px;
+
+}
+.search_box>.MuiSvgIcon-root{
+padding:10px ;
+color: #808080; 
+}
+.search_ok{
+    margin-left: 10px;  
+    flex: 1; 
+}
+.search_box>input{
+    border: none;
+    flex: 1;
+    outline: none;
+    outline-width: 0;
+
+}
+.sidebarchat_side {
+    max-height: 70vh; /* Adjust the height as needed */
+    overflow-y: auto;/* You can adjust the height as needed */
+}
+
+
+
